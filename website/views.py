@@ -17,8 +17,8 @@ def contact(request):
 		send_mail(
 			  message_name 
 		    , message 
-			, message_email
-			, ['rm17tink@gmail.com'] 
+			, message_email  
+			, ['thinktinkinc@gmail.com'] #to email(place its sent)
 			,fail_silently=False
 			)
 
